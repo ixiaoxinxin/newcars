@@ -1,0 +1,1 @@
+base_url = 'https://cx.chinahuanong.com.cn/#/dashboard'
