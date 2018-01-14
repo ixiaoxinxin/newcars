@@ -3,7 +3,7 @@ from bok_choy.page_object import PageObject
 import confs.confs
 
 class toubaoPage(PageObject):
-    url = 'https://cx.chinahuanong.com.cn'
+    url = 'http://172.20.1.2/#/dashboard'
     def is_browser_on_page(self):
         return self.q(xpath='/html/body/div[3]/div/div/div/div[1]/img').is_present()
 
@@ -134,6 +134,8 @@ class toubaoPage(PageObject):
         self.save_che()
         print "save_che ok"
         self.save_che_confim()
+        print "save_che_ok"
+        self.manwork()
         print "over"
 
 

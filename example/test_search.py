@@ -2,7 +2,7 @@
 import os
 import unittest
 from bok_choy.web_app_test import WebAppTest
-from pages.pages import BaiduSearchPage, BaiduSearchResultPage
+from pages import BaiduSearchPage, BaiduSearchResultPage
 
 class TestBaidu(WebAppTest):
     """
@@ -13,7 +13,7 @@ class TestBaidu(WebAppTest):
         Instantiate the page object.
         """
         super(TestBaidu, self).setUp()
-        self.baidu_search_page = BaiduSearchPage(self.browser)
+        self.baidu_search_page = BaiduSearchPage(self.browser)        
 
     def test_page_existence(self):
         """
@@ -31,5 +31,5 @@ class TestBaidu(WebAppTest):
 
 
 if __name__ == '__main__':
-    os.environ["SELENIUM_BROWSER"] = "Firefox"
+    os.environ["SELENIUM_BROWSER"] = "chrome"
     unittest.main()
