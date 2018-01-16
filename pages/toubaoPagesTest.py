@@ -3,7 +3,7 @@ from bok_choy.page_object import PageObject
 import confs.confs
 
 class toubaoPage(PageObject):
-    url = 'http://172.20.1.2/#/dashboard'
+    url = 'http://172.20.1.2'
     def is_browser_on_page(self):
         return self.q(xpath='/html/body/div[3]/div/div/div/div[1]/img').is_present()
 
