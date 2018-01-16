@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773c4875-3500-4064-be05-ac585c316be8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testcases/Pidan.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
@@ -321,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515937370002</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="尝试github构建是否成功">
+      <created>1516113058313</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1516113058313</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -389,7 +395,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="发送邮件" />
     <MESSAGE value="自动构建" />
-    <option name="LAST_COMMIT_MESSAGE" value="自动构建" />
+    <MESSAGE value="尝试github构建是否成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="尝试github构建是否成功" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
