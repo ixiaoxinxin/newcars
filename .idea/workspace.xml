@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773c4875-3500-4064-be05-ac585c316be8" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/testcases/Pidan.py" afterPath="$PROJECT_DIR$/testcases/testPidan.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geckodriver.log" afterPath="$PROJECT_DIR$/geckodriver.log" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/example/test_search.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-46">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="e#24#33#0" expanded="true" />
               </folding>
@@ -50,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/testcases/testToubao.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
               </folding>
@@ -58,8 +60,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pidan.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcases/Pidan.py">
+      <file leaf-file-name="runtest_htmltestrunner_autosendemail.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/runtest_htmltestrunner_autosendemail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testPidan.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcases/testPidan.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
@@ -202,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Nosetests for test_search.TestBaidu.test_search">
+  <component name="RunManager" selected="Python.runtest_htmltestrunner_autosendemail">
     <configuration name="Nosetests for testToubao.TestToubao.test_toubao" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,35 +275,37 @@
       <option name="_new_target" value="&quot;test_search.TestBaidu.test_search&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="Nosetests in testToubao.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+    <configuration name="runtest_htmltestrunner_autosendemail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="newcars" />
-      <option name="_new_regexPattern" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcases/testToubao.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runtest_htmltestrunner_autosendemail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in testToubao.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_page_existence" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_search" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for testToubao.TestToubao.test_toubao" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_page_existence" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_search" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for testToubao.TestToubao.test_toubao" />
+      <item index="4" class="java.lang.String" itemvalue="Python.runtest_htmltestrunner_autosendemail" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_search" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for testToubao.TestToubao.test_toubao" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_page_existence" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in testToubao.py" />
+        <item index="0" class="java.lang.String" itemvalue="Python.runtest_htmltestrunner_autosendemail" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_search" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests for testToubao.TestToubao.test_toubao" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for test_search.TestBaidu.test_page_existence" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +362,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516116863519</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="version1.0">
+      <created>1516116984842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516116984842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -385,16 +406,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22767204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25990492" sideWeight="0.50292826" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44690967" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44690967" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3866878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3866878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -614,14 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runtest_htmltestrunner_autosendemail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="73" column="24" lean-forward="false" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/geckodriver.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="1738">
@@ -672,7 +686,7 @@
     <entry file="file://$PROJECT_DIR$/example/test_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-46">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="e#24#33#0" expanded="true" />
           </folding>
@@ -690,17 +704,25 @@
     <entry file="file://$PROJECT_DIR$/testcases/testToubao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcases/Pidan.py">
+    <entry file="file://$PROJECT_DIR$/testcases/testPidan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runtest_htmltestrunner_autosendemail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
           <folding />
         </state>
       </provider>
