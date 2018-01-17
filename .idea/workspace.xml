@@ -410,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1516120151190</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="version1.3">
+      <created>1516199175318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516199175318</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -482,7 +489,8 @@
     <MESSAGE value="version1.0" />
     <MESSAGE value="version1.1" />
     <MESSAGE value="version1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version1.2" />
+    <MESSAGE value="version1.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="version1.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
