@@ -5,7 +5,7 @@ from bok_choy.web_app_test import WebAppTest
 from pages.toubaoPages import loginPage,toubaoPage
 
 
-#old
+#old1111
 class TestToubao(WebAppTest,):
     def setUp(self):
         super(TestToubao, self).setUp()
